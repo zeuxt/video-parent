@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="video-parent-dao" />
         <module name="video-parent-service" />
-        <module name="video-parent-controller" />
         <module name="video-parent-web" />
         <module name="video-parent-pojo" />
         <module name="video-parent-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="video-parent-controller" target="1.8" />
       <module name="video-parent-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
